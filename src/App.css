@@ -1,0 +1,149 @@
+html{
+  width: 100%;
+}
+.App {
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes animateMounting {
+  0% {
+     opacity: 0;
+  }
+ 
+  100% {
+     opacity: 1;
+  }
+ }
+ .quote {
+  animation: animateMounting .4s;
+}
+body
+{
+  padding: 0;
+  margin: 0;
+  background: #ffffffe4 !important;
+}
+.menuTitle
+{
+  color: white;
+}
+/* section
+{
+  margin: 60px 0px;
+} */
+@media (max-width:567px)
+{
+  .container-fluid--cp-150
+  {
+      padding: 0px 15px;
+  }
+}
+@media (min-width:567px) and (max-width:767px)
+{
+  .conatiner-fluid--cp-150
+  {
+      padding: 0px 30px;
+  }
+}
+@media (min-width:767px) and (max-width:999px)
+{
+ .conatiner-fliud--cp-150 
+ {
+  padding: 0px 60px;
+ }
+}
+@media (min-width:999px)  and (max-width:1499px)
+{
+  .container-fluid--cp-150
+  {
+      padding: 0px 110px;
+  }
+}
+@media (min-width:1499px)
+{
+  .container-fluid--cp-150
+  {
+      padding: 0px 150px;
+  }
+}
+
+section
+{
+  padding: 60px 0px;
+}
+.rounded-5
+{border-radius: 5px;}
+.rounded-10
+{border-radius: 10px;}
+.rounded-20
+{ border-radius: 20px;}
+.rounded-15
+{ border-radius: 15px;}
+.rounded-25
+{border-radius: 25px;}
+/* color  */
+.text-muted
+{
+  color: #6c757d  !important;
+}
+.text-l-green
+{
+  color: #0A5139 !important;
+}
+.bg-l-grenn
+{
+  background-color: #0A5139 !important;
+  color: white ;
+}
+.gap-6
+{
+  gap: 6;
+}
+
+.rounded-20
+{
+  border-radius: 20px;
+}
+.trancate-5, .trancate-2
+{
+  display: -webkit-box;  
+   -webkit-box-orient: vertical; 
+ overflow: hidden;
+ line-height:20px;
+}
+.trancate-5 {
+  height: auto;
+  -webkit-line-clamp: 5;
+}
+.trancate-2 {
+  height: auto;
+  -webkit-line-clamp: 2;
+}
+.bg-l-blue
+{
+  background-color: #1F3046;
+  color: white;
+} 
+.btn-s
+{
+  padding: 10px 15px;
+}
+
+.btn-white:hover {
+  transform: scale(1.05);
+}
+/* btn-green */
+.btn-white{
+  color:#0A5139;
+  background-color: #fff;
+  border-color: #edf2f0;
+}
+/* btn-l-green */
+.btn-white:hover {
+  color:#0A5139;
+  background-color: #fff;
+  text-decoration: none;
+  border-color: #edf2f0;}

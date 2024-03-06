@@ -1,0 +1,23 @@
+.about .class-scetion .btn-r
+{
+  display: none;
+}
+.about-service {
+h6{
+  font-size: 1.2rem;
+  font-weight: 500
+}
+p
+{
+  margin-left: 10px;
+}
+}
+.vission-img
+{
+  max-height: 400px;
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+  
+}
+

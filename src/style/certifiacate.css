@@ -1,0 +1,47 @@
+section
+{
+    padding:50px 0px;
+}
+.certificate .cont::after
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    height: 1px;
+    width: 220px;
+    background-color: #046a38;
+}
+.card-head
+{
+    position: relative;
+    top: 50%;
+    left: 20%;
+    z-index: 999;
+    transform: translateY(-50%);
+    min-height: 506px;
+    max-width: 406px;
+    width: 100%;
+    border-radius: 40px 2px;
+    padding: 55px 45px;
+    background-color: #046a38;
+    color: #fff;
+    h2
+    {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:767px)
+{
+    .card-head
+    {
+        left: 0;
+    }
+}
+.award-img
+{
+    z-index: -1;
+    position: relative;
+}

@@ -1,0 +1,37 @@
+.btn-button 
+{
+    background:rgb(25, 138, 203);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.btn-button:hover
+{
+    box-shadow: rgba(8, 120, 38, 0.24) 0px 14px 20px 0px;
+}
+.spinner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:0%;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    &:active
+    {
+        width: 19px;
+        margin-right: 10px;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+.txt
+{
+    flex-grow: 1;
+}
+.jJglpC .nav-menu-list:not(.active)
+{
+    opacity: 0.78;
+}

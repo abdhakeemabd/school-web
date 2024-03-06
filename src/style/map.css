@@ -1,0 +1,11 @@
+iframe
+{
+    border: none !important;
+    border-radius: 20px 0px 0px 20px;
+}
+.map-sec
+{
+    margin-top: -50px;
+    position: relative;
+    z-index: 0;
+}

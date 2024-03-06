@@ -1,0 +1,40 @@
+.sec-dec
+{
+    margin-bottom: 50px;
+}
+.teacher-info
+{
+padding-top: 20px;
+bottom: 0;
+position: absolute;
+align-items:center ;
+padding-left: 10px;
+display: none;
+background-color: aliceblue;
+width: 100%;
+transition:1s ease-out;
+border-radius:5px;
+}
+.teacher-card:hover .teacher-info
+{
+    display: block;
+    transition:1s ease-out;
+}
+.teacher-card
+{
+    position: relative;
+    margin: 0px 15px;
+}
+.teacher-card img
+{
+    border-radius: 5px;
+}
+.teacher-card:hover img
+{
+    transform: scale(1.05); 
+}
+.teacher-info h4
+{
+font-size: 24px;
+font-weight: 900px;
+}
