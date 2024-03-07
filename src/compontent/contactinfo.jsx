@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import Phone from '../assets/img/img/phone.png';
 import SMS from '../assets/img/img/sms.png';
 import Address from '../assets/img/img/location.png';
@@ -39,11 +38,7 @@ function ContactInfo () {
                             </div>
                             <div className="col-md-2 h-sm-none"   >
                                 <div className="right_conatct_social_icon d-flex align-items-end">
-                                <div className="socil_item_inner d-flex">
-                                   <li><a href="#"><i className="fab fa-facebook-square"></i></a></li>
-                                      <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                                      <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                                   </div>
+                              
                                 </div>
                             </div>
                         </div>

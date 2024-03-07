@@ -60,7 +60,7 @@ function Banner() {
         </marquee>
         <div className="marquee-controls">
           <button onClick={handleTogglePlayPause}>
-            {isPlaying ? <i className="fas fa-pause"></i> : <i className="fas fa-play"></i>}
+            {}
           </button>
           <button onClick={handlePrevious}><i className="fas fa-backward"></i></button>
           <button onClick={handleNext}><i className="fas fa-forward"></i></button>
